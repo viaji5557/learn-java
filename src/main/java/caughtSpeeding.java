@@ -1,5 +1,10 @@
 public class caughtSpeeding {
     public static void main (String [] args ){
+        caughtSpeeding obj = new caughtSpeeding();
+        System.out.println(obj.caughtSpeeding(60,false));
+        System.out.println(obj.caughtSpeeding(65,false));
+        System.out.println(obj.caughtSpeeding(65,true));
+
     }
     public int caughtSpeeding(int speed, boolean isBirthday) {
         if (!(isBirthday)) {
